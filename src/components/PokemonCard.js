@@ -6,7 +6,7 @@ import {
   TouchableWithoutFeedback,
 } from "react-native";
 import React from "react";
-import getColorByPokemonType from "../../utils/getColorByPokemonType";
+import getColorByPokemonType from "../utils/getColorByPokemonType";
 import { capitalize } from "lodash";
 import { useNavigation } from "@react-navigation/native";
 export default function PokemonCard(props) {

@@ -1,9 +1,9 @@
 import { View, Text, ScrollView } from "react-native";
 import React, { useEffect, useState } from "react";
 import { getPokemonDetailsApi } from "../api/pokemonApi";
-import Header from "../assets/components/Pokemon/Header";
-import Type from "../assets/components/Pokemon/Type";
-import Stats from "../assets/components/Pokemon/Stats";
+import Header from "../components/Pokemon/Header";
+import Type from "../components/Pokemon/Type";
+import Stats from "../components/Pokemon/Stats";
 import Icon from "react-native-vector-icons/FontAwesome5";
 
 export default function Pokemon(props) {

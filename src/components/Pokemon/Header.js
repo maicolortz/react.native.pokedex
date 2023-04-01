@@ -1,7 +1,7 @@
 import { View, Text, SafeAreaView, StyleSheet, Image } from "react-native";
 import React from "react";
 import { capitalize } from "lodash";
-import getColorByPokemonType from "../../../utils/getColorByPokemonType";
+import getColorByPokemonType from "../../utils/getColorByPokemonType";
 
 export default function Header(props) {
   const { image, name, order, type } = props;

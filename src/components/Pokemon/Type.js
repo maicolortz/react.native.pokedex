@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 import React from "react";
 import { capitalize, map } from "lodash";
-import getColorByPokemonType from "../../../utils/getColorByPokemonType";
+import getColorByPokemonType from "../../utils/getColorByPokemonType";
 
 export default function Type({ types }) {
   console.log(types);

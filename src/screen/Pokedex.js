@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { SafeAreaView, Text } from "react-native";
 import { getPokemonsApi, getPokemonDetailsByUrlApi } from "../api/pokemonApi";
-import PokemonList from "../assets/components/PokemonList";
+import PokemonList from "../components/PokemonList";
 
 export default function Pokedex() {
   const [pokemons, setPokemons] = useState([]);
