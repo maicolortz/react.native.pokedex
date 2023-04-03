@@ -13,11 +13,12 @@ export default function PokemonCard(props) {
   const { pokemon } = props;
   const pokemonColor = getColorByPokemonType(pokemon.type);
   const navigation = useNavigation();
-
   const bgStyles = { backgroundColor: pokemonColor, ...styles.bgStyles };
+
   const goToPokemon = () => {
     navigation.navigate("Pokemon", { id: pokemon.id });
   };
+
   return (
     <TouchableWithoutFeedback onPress={goToPokemon}>
       <View style={styles.card}>
