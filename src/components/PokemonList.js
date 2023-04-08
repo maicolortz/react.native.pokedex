@@ -2,9 +2,7 @@ import { View, Text, FlatList, StyleSheet, Platform } from "react-native";
 import React from "react";
 import PokemonCard from "./PokemonCard";
 
-export default function PokemonList(props) {
-  console.log(props);
-  const { pokemons } = props;
+export default function PokemonList({ pokemons }) {
   return (
     <FlatList
       data={pokemons}
